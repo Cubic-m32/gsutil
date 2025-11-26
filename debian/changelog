@@ -1,0 +1,5 @@
+gsutil (5.3.5-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Arduinum <arduinum628-trixie@unknown>  Wed, 26 Nov 2025 13:34:02 +0300
