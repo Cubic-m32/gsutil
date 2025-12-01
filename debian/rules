@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=gsutil
+export PYBUILD_DESTDIR=$(CURDIR)/debian/python3-gsutil
+export PYBUILD_INSTALL_ARGS=--install-lib=/usr/lib/python3/dist-packages
+export DH_ALWAYS_EXCLUDE=test gslib/tests
+export DEB_BUILD_OPTIONS=nocheck
+
+%:
+	dh $@ --buildsystem=pybuild --with=python3
