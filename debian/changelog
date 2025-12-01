@@ -1,5 +1,8 @@
 gsutil (5.3.5-1) UNRELEASED; urgency=medium
 
-  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #1121727)
+  * Imported upstream version 5.3.5
+  * Built for internal use and preparation for Debian contribution
+  * No changes to upstream code
 
- -- Arduinum <arduinum628-trixie@unknown>  Wed, 26 Nov 2025 13:34:02 +0300
+ -- Eugene Kaddo <arduinum628@gmail.com>  Wed, 26 Nov 2025 13:34:02 +0300
